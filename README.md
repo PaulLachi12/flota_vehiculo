@@ -1,10 +1,10 @@
-# Guia de Instalacion, Ejecucion y Pruebas en Windows (Laptop HP)
+# Guia de Instalacion, Ejecucion y Pruebas en Windows
 ## Sistema de Gestion de Flota de Vehiculos Electricos
 
 Proyecto academico para la asignatura de **Estructura de Datos** (Tipo D)  
 **Universidad Continental** - Facultad de Ingenieria de Sistemas e Informatica  
 **Docente:** Dr. Ing. Julio Arboleda H.  
-**Plataforma de Ejecucion:** Windows 10 / Windows 11 (Laptop HP)  
+**Plataforma de Ejecucion:** Windows  
 **Lenguaje Principal:** Python 3  
 **Autor:** Paul Lachi  
 
@@ -13,11 +13,11 @@ Proyecto academico para la asignatura de **Estructura de Datos** (Tipo D)
 ## Indice de Contenidos
 
 1. [Descripcion General](#1-descripcion-general)
-2. [Estructura del Proyecto en tu Laptop HP](#2-estructura-del-proyecto-en-tu-laptop-hp)
-3. [Requisitos en Windows](#3-requisitos-en-windows)
+2. [Estructura del Proyecto](#2-estructura-del-proyecto)
+3. [Requisitos del Sistema](#3-requisitos-del-sistema)
 4. [Como Ejecutar el Programa en Windows (3 Formas Sencillas)](#4-como-ejecutar-el-programa-en-windows-3-formas-sencillas)
    - [Metodo 1: Ejecutar con un Doble Clic (ejecutar.bat)](#metodo-1-ejecutar-con-un-doble-clic-ejecutarbat)
-   - [Metodo 2: Ejecutar desde PowerShell o CMD (Simbolo del Sistema)](#metodo-2-ejecutar-desde-powershell-o-cmd-simbolo-del-sistema)
+   - [Metodo 2: Ejecutar desde PowerShell o CMD](#metodo-2-ejecutar-desde-powershell-o-cmd)
    - [Metodo 3: Ejecutar desde Visual Studio Code](#metodo-3-ejecutar-desde-visual-studio-code)
 5. [Datos Precargados para Pruebas Inmediatas](#5-datos-precargados-para-pruebas-inmediatas)
 6. [Guia de Pruebas Paso a Paso (Casos 1 al 7)](#6-guia-de-pruebas-paso-a-paso-casos-1-al-7)
@@ -39,14 +39,14 @@ El programa cumple con todos los requisitos del curso de Estructura de Datos:
 
 ---
 
-## 2. Estructura del Proyecto en tu Laptop HP
+## 2. Estructura del Proyecto
 
 ```text
-C:\Users\Leo\alvado_parcial\
+flota_vehiculo/
 |-- ejecutar.bat                          # Lanzador por doble clic para Windows
 |-- flota_vehiculos.py                    # Codigo fuente principal en Python 3
 |-- flota_vehiculos.cpp                   # Codigo fuente alternativo en C++
-|-- README.md                             # Esta guia de uso para Windows en laptop HP
+|-- README.md                             # Guia de uso y pruebas en Windows
 |-- INFORME_PARCIAL_ESTRUCTURA_DATOS.pdf  # Informe final en PDF (13 paginas)
 |-- INFORME_PARCIAL_ESTRUCTURA_DATOS.docx # Informe en formato Word editable con portada
 |-- INFORME_PARCIAL_ESTRUCTURA_DATOS.md   # Version del informe en texto Markdown
@@ -61,11 +61,11 @@ C:\Users\Leo\alvado_parcial\
 
 ---
 
-## 3. Requisitos en Windows
+## 3. Requisitos del Sistema
 
-* **Laptop HP con Windows 10 o Windows 11.**
-* **Python 3 instalado:** Puedes comprobarlo abriendo PowerShell o CMD y escribiendo `python --version`.
-* No requiere instalar ninguna libreria externa con `pip` (funciona con las librerias nativas de Python).
+* **Sistema Operativo:** Windows 10 o Windows 11.
+* **Python 3 instalado:** Puedes verificarlo abriendo la consola y escribiendo `python --version`.
+* No requiere instalar librerias externas con `pip` (funciona con librerias estandar de Python).
 
 ---
 
@@ -73,38 +73,37 @@ C:\Users\Leo\alvado_parcial\
 
 ### Metodo 1: Ejecutar con un Doble Clic (ejecutar.bat)
 
-Es la forma mas rapida y comoda en una laptop con Windows:
-1. Abre el **Explorador de Archivos de Windows** y entra a la carpeta del proyecto:
-   `C:\Users\Leo\alvado_parcial`
+Es la opcion mas rapida y comoda:
+1. Abre el **Explorador de Archivos de Windows** y entra a la carpeta del proyecto.
 2. Haz **doble clic** sobre el archivo llamado **`ejecutar.bat`**.
-3. Se abrira de inmediato una ventana negra de consola con el sistema listo para usar.
-4. Cuando termines y salgas con la opcion 9, la ventana te permitira presionar cualquier tecla para cerrarse comodamente.
+3. Se abrira automaticamente una ventana de consola con el sistema listo para usar.
+4. Al salir con la opcion 9, la ventana se mantendra abierta hasta que presiones cualquier tecla para cerrarla.
 
 ---
 
-### Metodo 2: Ejecutar desde PowerShell o CMD (Simbolo del Sistema)
+### Metodo 2: Ejecutar desde PowerShell o CMD
 
-1. En tu teclado de la laptop HP, presiona la tecla **Windows + R**.
+1. Presiona la tecla **Windows + R** en tu teclado.
 2. Escribe `powershell` (o `cmd`) y presiona **Enter**.
-3. Navega a la carpeta del proyecto escribiendo:
+3. Navega a la carpeta del proyecto donde se descargaron los archivos:
    ```powershell
-   cd c:\Users\Leo\alvado_parcial
+   cd ruta\de\la\carpeta\flota_vehiculo
    ```
-4. Ejecuta el programa escribiendo:
+4. Ejecuta el programa con el siguiente comando:
    ```powershell
    python flota_vehiculos.py
    ```
-5. El menu principal aparecera en pantalla.
+5. El menu interactivo aparecera en pantalla.
 
 ---
 
 ### Metodo 3: Ejecutar desde Visual Studio Code
 
-1. Abre Visual Studio Code en tu laptop HP.
-2. Ve a `Archivo` > `Abrir carpeta...` y selecciona `C:\Users\Leo\alvado_parcial`.
-3. Haz clic sobre el archivo `flota_vehiculos.py` en el panel izquierdo.
-4. Presiona el boton de **Play** ubicado en la esquina superior derecha de la ventana (o presiona `F5`).
-5. El programa se ejecutara en la terminal integrada en la parte inferior de VS Code.
+1. Abre Visual Studio Code.
+2. Ve a `Archivo` > `Abrir carpeta...` y selecciona la carpeta del proyecto.
+3. Abre el archivo `flota_vehiculos.py` desde el explorador lateral.
+4. Presiona el boton de **Play** ubicado en la esquina superior derecha (o presiona `F5`).
+5. El programa se ejecutara en la terminal integrada de VS Code.
 
 ---
 
