@@ -1,4 +1,4 @@
-# 🚗 Sistema de Gestión de Flota de Vehículos Eléctricos
+#  Sistema de Gestión de Flota de Vehículos Eléctricos
 
 > **Evaluación:** Examen Parcial – Estructura de Datos (Tipo D)  
 > **Institución:** Universidad Continental – Escuela de Ingeniería de Sistemas e Informática  
@@ -20,7 +20,7 @@ El programa implementa conceptos clave del curso:
 
 ---
 
-## 📂 Contenido del Repositorio
+##  Contenido del Repositorio
 
 | Archivo / Carpeta | Descripción |
 | :--- | :--- |
@@ -41,7 +41,7 @@ Para compilar y ejecutar el proyecto en tu máquina local solo necesitas un comp
 
 ---
 
-## 🚀 Instrucciones para Probar en Local
+##  Instrucciones para Probar en Local
 
 ### Opción 1: Compilar desde la Terminal (PowerShell / CMD / Bash)
 
@@ -92,7 +92,7 @@ Para compilar y ejecutar el proyecto en tu máquina local solo necesitas un comp
 
 ---
 
-## 🎮 Guía de Operaciones del Menú
+##  Guía de Operaciones del Menú
 
 Al iniciar, el sistema cuenta con **4 vehículos precargados** para que no tengas que ingresar datos desde cero si deseas probar de inmediato:
 
@@ -151,7 +151,7 @@ Al iniciar, el sistema cuenta con **4 vehículos precargados** para que no tenga
 
 ---
 
-## 👨‍💻 Autor y Datos Académicos
+##  Autor y Datos Académicos
 
 * **Asignatura:** Estructura de Datos
 * **Docente:** Dr. Ing. Julio Arboleda H.
