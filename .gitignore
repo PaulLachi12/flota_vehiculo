@@ -1,0 +1,5 @@
+# Binarios y compilados C++
+*.exe
+*.o
+*.obj
+*.out
